@@ -15,17 +15,6 @@ const client = new Discord.Client();
                     description: "MrNeedsMoney, M&M, Tate, Ting, Spear"
                 }
             });
-        client.on("message", (message) => {
-        if (message.content.startsWith(prefix + "whoisting"))
-            message.channel.send({
-                embed: {
-                    color: 3447003,
-
-                    description: "The only Ting we know"
-
-                }
-
-            });
 
         if (message.content.startsWith(prefix + "card")) {
             var card = Math.floor(Math.random() * 52) + 1;
