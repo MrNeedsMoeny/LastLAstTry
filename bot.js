@@ -16,13 +16,9 @@ const client = new Discord.Client();
                 }
             });
         client.on("message", (message) => {
-
         if (message.content.startsWith(prefix + "whoisting"))
-
             message.channel.send({
-
                 embed: {
-
                     color: 3447003,
 
                     description: "The only Ting we know"
