@@ -183,19 +183,7 @@ const client = new Discord.Client();
             }
 
 
-  if (message.content.startsWith(prefix + "flipacoin")) {
-            var coin = Math.floor(Math.random() * 2) + 1;
-            if (coin === 2) {
-                message.channel.send("Heads");
-            }
-
-            if (coin === 1) {
-                message.channel.send("Tails");
-            }
-            
-        }
-        
-    });            if (card === 42) {
+            if (card === 42) {
                 message.channel.send("Two of Clubs");
             }
 
@@ -239,7 +227,6 @@ const client = new Discord.Client();
                 message.channel.send("Queen of Clubs");
             }
 
-        }
               
             if (message.content.startsWith(prefix + "flipacoin")) {
             var coin = Math.floor(Math.random() * 2) + 1;
