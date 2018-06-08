@@ -1,4 +1,4 @@
-const Discord = require("discord.js");
+onst Discord = require("discord.js");
 const client = new Discord.Client();
 
 
@@ -12,7 +12,7 @@ const client = new Discord.Client();
             message.channel.send({
                 embed: {
                     color: 3447003,
-                    description: "MrNeedsMoney, M& M, Tate, Ting, Spear"
+                    description: "MrNeedsMoney, M&M, Tate, Ting, Spear"
                 }
             });
 
