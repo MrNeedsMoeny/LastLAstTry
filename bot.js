@@ -197,6 +197,7 @@ const client = new Discord.Client();
                 message.channel.send("Ace of Clubs");
             }
 
+
             if (card === 42) {
                 message.channel.send("Two of Clubs");
             }
@@ -243,7 +244,8 @@ const client = new Discord.Client();
 
         }
             
-  });if (message.content.startsWith(prefix + "flipacoin")) {
+  });
+        if (message.content.startsWith(prefix + "flipacoin")) {
             var coin = Math.floor(Math.random() * 2) + 1;
             if (coin === 2) {
                 message.channel.send("Heads");
