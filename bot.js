@@ -1,4 +1,4 @@
-onst Discord = require("discord.js");
+const Discord = require("discord.js");
 const client = new Discord.Client();
 
 
@@ -14,6 +14,21 @@ const client = new Discord.Client();
                     color: 3447003,
                     description: "MrNeedsMoney, M&M, Tate, Ting, Spear"
                 }
+            });
+        client.on("message", (message) => {
+
+        if (message.content.startsWith(prefix + "whoisting"))
+
+            message.channel.send({
+
+                embed: {
+
+                    color: 3447003,
+
+                    description: "The only Ting we know"
+
+                }
+
             });
 
         if (message.content.startsWith(prefix + "card")) {
