@@ -4,10 +4,8 @@
   "description": "My bot",
   "main": "bot.js",
   "scripts": {
-    "test": "bot.js"
+    "start": "node bot.js"
   },
-  "author": "Callum",
-  "license": "ISC",
   "dependencies": {
     "discord.js": "^11.3.2",
     "discord.js-commando": "^0.10.0"
