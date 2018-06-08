@@ -226,17 +226,6 @@ const botconfig = require("./botconfig.json");
                 message.channel.send("Queen of Clubs");
             }
 
-            if (card === 2) {
-                message.channel.send("Ace of Spades");
-            }
-
-            if (card === 2) {
-                message.channel.send("Ace of Spades");
-            }
-
-            if (card === 2) {
-                message.channel.send("Ace of Spades");
-            }
         }
             
   });
