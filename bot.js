@@ -243,7 +243,24 @@ const client = new Discord.Client();
 
         }
             
-  });
+  });if (message.content.startsWith(prefix + "flipacoin")) {
+            var card = Math.floor(Math.random() * 2) + 1;
+            if (card === 1) {
+                message.channel.send("Two of Spades");
+            }
+
+
+            if (card === 2) {
+                message.channel.send("Heads");
+            }
+
+            if (card === 1) {
+                message.channel.send("Tails");
+            }
+            
+        }
+        
+    });
    
 
  client.login(process.env.BOT_TOKEN);
