@@ -2,9 +2,8 @@ const Discord = require("discord.js");
 const client = new Discord.Client();
 
 
-    bot.user.setGame("Playing BlackJack");
-        
-      
+     
+ 
         
     });
     const prefix = ".";
