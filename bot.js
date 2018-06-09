@@ -16,8 +16,26 @@ console.log("I am ready!");
                     description: "MrNeedsMoney, M&M, Tate, Ting, Spear"
                 }
             });
+         
+           const prefix = ".";
 
-        if (message.content.startsWith(prefix + "card")) {
+            client.on("message", (message) => {
+
+                if (message.content.startsWith(prefix + "whoisting"))
+
+                    message.channel.send({
+
+                        embed: {
+
+                            color: 3447003,
+
+                            description: "LordTing: Hes the only Ting we know"
+
+                        }
+
+        });
+         
+            if (message.content.startsWith(prefix + "card")) {
             var card = Math.floor(Math.random() * 52) + 1;
             if (card === 1) {
                 message.channel.send("Two of Spades");
