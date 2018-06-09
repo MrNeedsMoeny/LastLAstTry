@@ -5,6 +5,9 @@ const client = new Discord.Client();
 
     client.on("ready", () => {
         console.log("I am ready!");
+        
+        bot.user.setGame('Play BlackJack');
+        
     });
     const prefix = ".";
     client.on("message", (message) => {
