@@ -1,4 +1,4 @@
-
+);
 const Discord = require("discord.js");
 const client = new Discord.Client();
 
@@ -36,7 +36,7 @@ console.log("I am ready!");
                         }
 
         });
-            }
+            });
          
             if (message.content.startsWith(prefix + "card")) {
             var card = Math.floor(Math.random() * 52) + 1;
