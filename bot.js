@@ -74,8 +74,7 @@ console.log("I am ready!");
             }
             
             if (card === 14) {
-                message.channel.send("Ace of Hearts");
-            }
+                message.channel.send("Ace of Hearts");            }
 
             if (card === 15) {
                 message.channel.send("Two of Hearts");
@@ -249,7 +248,7 @@ console.log("I am ready!");
      }
 
    }
-         }
+         
          
  });
        
