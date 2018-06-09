@@ -17,8 +17,8 @@ console.log("I am ready!");
           }});
         
          
-            if (message.content.startsWith(prefix + "card 2")) {
-            var card = Math.floor(Math.random() * 52) + 1;
+            if (message.content.startsWith(prefix + "card ")) {
+           
             var card = Math.floor(Math.random() * 52) + 1;
             if (card === 1) {
                 message.channel.send("Two of Spades");
