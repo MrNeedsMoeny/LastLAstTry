@@ -70,7 +70,7 @@ console.log("I am ready!");
             }
 
             if (card === 13) {
-                message.channel.send("KIng of Spades");
+                message.channel.send("King of Spades");
             }
             
             if (card === 14) {
