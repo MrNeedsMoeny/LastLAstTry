@@ -1,12 +1,12 @@
 const Discord = require("discord.js");
 const client = new Discord.Client();
 
-
+  bot.user.setGame('Play BlackJack');
 
     client.on("ready", () => {
         console.log("I am ready!");
         
-        bot.user.setGame('Play BlackJack');
+      
         
     });
     const prefix = ".";
