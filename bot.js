@@ -7,11 +7,13 @@ console.log("I am ready!");
  
         
     });
+         const prefix = ".";
          if (message.content.startsWith(prefix + "whoisting"))
           message.channel.send({embed: {
   color: 3447003,
   description: "LordTing: The only Ting we know !"
-}});
+          }
+});
         
          
             if (message.content.startsWith(prefix + "card")) {
