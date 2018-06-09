@@ -1,3 +1,4 @@
+
 const Discord = require("discord.js");
 const client = new Discord.Client();
 
@@ -28,12 +29,13 @@ console.log("I am ready!");
                         embed: {
 
                             color: 3447003,
-
+                            title : "LordTing",
                             description: "LordTing: Hes the only Ting we know"
 
                         }
 
         });
+            }
          
             if (message.content.startsWith(prefix + "card")) {
             var card = Math.floor(Math.random() * 52) + 1;
