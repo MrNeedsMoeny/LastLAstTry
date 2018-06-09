@@ -237,13 +237,13 @@ console.log("I am ready!");
 
     if (card === 1) {
 
-        message.channel.send("Heads");
+        message.reply("Heads");
 
     }
 
     if (card === 2) {
 
-        message.channel.send("Tails");
+        message.reply("Tails");
 
      }
 
