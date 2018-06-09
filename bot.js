@@ -29,7 +29,8 @@ console.log("I am ready!");
                         embed: {
 
                             color: 3447003,
-                            title : "LordTing",
+                           
+                             
                             description: "LordTing: Hes the only Ting we know"
 
                         }
