@@ -8,15 +8,6 @@ console.log("I am ready!");
  
         
     });
-    const prefix = ".";
-    client.on("message", (message) => {
-        if (message.content.startsWith(prefix + "Staff"))
-            message.channel.send({
-                embed: {
-                    color: 3447003,
-                    description: "MrNeedsMoney, M&M, Tate, Ting, Spear"
-                }
-            });
          
            const prefix = ".";
 
@@ -36,7 +27,7 @@ console.log("I am ready!");
                         }
 
         });
-            });
+        
          
             if (message.content.startsWith(prefix + "card")) {
             var card = Math.floor(Math.random() * 52) + 1;
