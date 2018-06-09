@@ -183,6 +183,7 @@ console.log("I am ready!");
                 message.channel.send("Ace of Clubs");
             }
 
+             
 
             if (card === 42) {
                 message.channel.send("Two of Clubs");
@@ -230,8 +231,25 @@ console.log("I am ready!");
             
         }
         
-   
-  });
+   if (message.content.startsWith(prefix + "flipacoin")) {
+
+    var card = Math.floor(Math.random() * 2) + 1;
+
+    if (card === 1) {
+
+        message.channel.send("Heads");
+
+    }
+
+    if (card === 2) {
+
+        message.channel.send("Tails");
+
+     }
+
+   }
+         
+ });
        
    
 
