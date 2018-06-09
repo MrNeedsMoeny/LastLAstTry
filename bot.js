@@ -17,216 +17,217 @@ console.log("I am ready!");
           }});
         
          
-            if (message.content.startsWith(prefix + "card")) {
+            if (message.content.startsWith(prefix + "card")){
             var card = Math.floor(Math.random() * 52) + 1;
             if (card === 1) {
-                message.channel.send("Two of Spades");
+                message.reply("Two of Spades");
             }
 
 
             if (card === 2) {
-                message.channel.send("Ace of Spades");
+                message.reply("Ace of Spades");
             }
 
             if (card === 3) {
-                message.channel.send("Three of Spades");
+                message.reply("Three of Spades");
             }
 
 
            if (card === 4) {
-                message.channel.send("Four of Spades");
+                message.reply("Four of Spades");
             }
 
             if (card === 5) {
-                message.channel.send("Five of Spades");
+                message.reply("Five of Spades");
             }
 
             if (card === 6) {
-                message.channel.send("Six of Spades");
+                message.reply("Six of Spades");
             }
 
             if (card === 7) {
-                message.channel.send("Seven of Spades");
+                message.reply("Seven of Spades");
             }
 
             if (card === 8) {
-                message.channel.send("Eight of Spades");
+                message.reply("Eight of Spades");
             }
 
             if (card === 9) {
-                message.channel.send("Nine of Spades");
+                message.reply("Nine of Spades");
             }
 
             if (card === 10) {
-                message.channel.send("Ten of Spades");
+                message.reply("Ten of Spades");
             }
 
             if (card === 11) {
-                message.channel.send("Jack of Spades");
+                message.reply("Jack of Spades");
             }
 
             if (card === 12) {
-                message.channel.send("Queen of Spades");
+                message.reply("Queen of Spades");
             }
 
             if (card === 13) {
-                message.channel.send("King of Spades");
+                message.reply("King of Spades");
             }
             
             if (card === 14) {
-                message.channel.send("Ace of Hearts");            }
+                message.reply("Ace of Hearts");           
+            }
 
             if (card === 15) {
-                message.channel.send("Two of Hearts");
+                message.reply("Two of Hearts");
             }
 
             if (card === 16) {
-                message.channel.send("Three of Hearts");
+                message.reply("Three of Hearts");
             }
 
             if (card === 17) {
-                message.channel.send("Four of Hearts");
+                message.reply("Four of Hearts");
             }
 
             if (card === 18) {
-                message.channel.send("Five of Hearts");
+                message.reply("Five of Hearts");
             }
 
             if (card === 19) {
-                message.channel.send("Six of Hears");
+                message.reply("Six of Hears");
             }
 
             if (card === 20) {
-                message.channel.send("Seven of Hearts");
+                message.reply("Seven of Hearts");
             }
 
             if (card === 21) {
-                message.channel.send("Eight of Hearts");
+                message.reply("Eight of Hearts");
             }
 
             if (card === 22) {
-                message.channel.send("Nine of Hearts");
+                message.reply("Nine of Hearts");
             }
 
             if (card === 23) {
-                message.channel.send("Ten of Hearts");
+                message.reply("Ten of Hearts");
             }
 
             if (card === 24) {
-                message.channel.send("Jack of Hearts");
+                message.reply("Jack of Hearts");
             }
 
             if (card === 25) {
-                message.channel.send("Queen of Hearts");
+                message.reply("Queen of Hearts");
             }
 
             if (card === 26) {
-                message.channel.send("King of Hearts");
+                message.reply("King of Hearts");
             }
 
             if (card === 27) {
-                message.channel.send("Ace of Diamonds");
+                message.reply("Ace of Diamonds");
             }
             if (card === 28) {
-                message.channel.send("Two of Diamonds");
+                message.reply("Two of Diamonds");
             }
 
             if (card === 29) {
-                message.channel.send("Three of Diamonds");
+                message.reply("Three of Diamonds");
             }
 
             if (card === 30) {
-                message.channel.send("Four of Diamonds");
+                message.reply("Four of Diamonds");
             }
             if (card === 31) {
-                message.channel.send("King Of Clubs");
+                message.reply("King Of Clubs");
             }
 
             if (card === 32) {
-                message.channel.send("Five of Diamonds");
+                message.reply("Five of Diamonds");
             }
 
             if (card === 33) {
-                message.channel.send("Six of Diamonds");
+                message.reply("Six of Diamonds");
             }
 
             if (card === 34) {
-                message.channel.send("Seven of Diamonds");
+                message.reply("Seven of Diamonds");
             }
 
             if (card === 35) {
-                message.channel.send("Eight of Diamonds");
+                message.reply("Eight of Diamonds");
             }
 
             if (card === 36) {
-                message.channel.send("Nine of Diamonds");
+                message.reply("Nine of Diamonds");
             }
 
             if (card === 37) {
-                message.channel.send("Ten of Diamonds");
+                message.reply("Ten of Diamonds");
             }
 
             if (card === 38) {
-                message.channel.send("KIng of Diamonds");
+                message.reply("KIng of Diamonds");
             }
 
             if (card === 39) {
-                message.channel.send("Queen of Diamonds");
+                message.reply("Queen of Diamonds");
             }
 
             if (card === 40) {
-                message.channel.send("Jack of Diamonds");
+                message.reply("Jack of Diamonds");
             }
 
             if (card === 41) {
-                message.channel.send("Ace of Clubs");
+                message.reply("Ace of Clubs");
             }
 
              
 
             if (card === 42) {
-                message.channel.send("Two of Clubs");
+                message.reply("Two of Clubs");
             }
 
            
             if (card === 43) {
-                message.channel.send("Three of Clubs");
+                message.reply("Three of Clubs");
             }
 
             if (card === 44) {
-                message.channel.send("Four of Clubs");
+                message.reply("Four of Clubs");
             }
 
             if (card === 45) {
-                message.channel.send("Five of Clubs");
+                message.reply("Five of Clubs");
             }
 
             if (card === 46) {
-                message.channel.send("Six of Clubs");
+                message.reply("Six of Clubs");
             }
 
             if (card === 47) {
-                message.channel.send("Seven of Clubs");
+                message.reply("Seven of Clubs");
             }
 
             if (card === 48) {
-                message.channel.send("Eight of Clubs");
+                message.reply("Eight of Clubs");
             }
 
             if (card === 49) {
-                message.channel.send("Nine of Clubs");
+                message.reply("Nine of Clubs");
             }
 
             if (card === 50) {
-                message.channel.send("Ten of Clubs");
+                message.reply("Ten of Clubs");
             }
 
             if (card === 51) {
-                message.channel.send("Jack of Clubs");
+                message.reply("Jack of Clubs");
             }
 
             if (card === 52) {
-                message.channel.send("Queen of Clubs");
+                message.reply("Queen of Clubs");
             }
             
         }
