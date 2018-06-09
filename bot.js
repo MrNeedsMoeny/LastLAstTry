@@ -20,8 +20,6 @@ console.log("I am ready!");
                         embed: {
 
                             color: 3447003,
-                           
-                             
                             description: "LordTing: Hes the only Ting we know"
 
                         }
@@ -261,7 +259,6 @@ console.log("I am ready!");
      }
 
    }
- }
          
  });
        
