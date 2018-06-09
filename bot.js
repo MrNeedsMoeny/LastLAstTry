@@ -3,7 +3,8 @@ const client = new Discord.Client();
 
 
     client.on("ready", () => {
-    bot.user.setGame("Play BlackJack");
+    bot.user.setGame("Playing BlackJack")
+    })
         
       
         
