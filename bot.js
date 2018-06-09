@@ -8,15 +8,10 @@ console.log("I am ready!");
         
     });
          
-           if (message.content.startsWith(prefix + "whoisting")) {
-           const embed = new Discord.RichEmbed()
-          .setTitle("LordTIng")
-          .setColor(0x00AE86)
-          .setDescription("Hes the only Ting we know!")
-          .setFooter("PS he started the burrito emoji trend");
- 
-
-           message.channel.send({ embed });
+          message.channel.send({embed: {
+  color: 3447003,
+  description: "LordTing: The only Ting we know !"
+}});
         
          
             if (message.content.startsWith(prefix + "card")) {
