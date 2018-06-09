@@ -1,6 +1,6 @@
 const Discord = require("discord.js");
 const client = new Discord.Client();
-const embed = new Discord.RichEmbed()
+
 client.on("ready", () => { 
 console.log("I am ready!");
      
@@ -8,20 +8,15 @@ console.log("I am ready!");
         
     });
          
-           const prefix = ".";
+           if (message.content.startsWith(prefix + "whoisting")) {
+           const embed = new Discord.RichEmbed()
+          .setTitle("LordTIng")
+          .setColor(0x00AE86)
+          .setDescription("Hes the only Ting we know!")
+          .setFooter("PS he started the burrito emoji trend");
+ 
 
-            client.on("message", (message) => {
-
-                if (message.content.startsWith(prefix + "whoisting"))
-
-                    message.channel.send({
-
-                        embed: {
-                            .setTitle("LordTing")
-                            .color(3447003),
-                            .description("LordTing: Hes the only Ting we know");
-
-                    message.channel.send({embed});
+           message.channel.send({ embed });
         
          
             if (message.content.startsWith(prefix + "card")) {
