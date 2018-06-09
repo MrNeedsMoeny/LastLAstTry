@@ -226,17 +226,6 @@ const client = new Discord.Client();
             if (card === 52) {
                 message.channel.send("Queen of Clubs");
             }
-
-              
-            if (message.content.startsWith(prefix + "flipacoin")) {
-            var coin = Math.floor(Math.random() * 2) + 1;
-            if (coin === 2) {
-                message.channel.send("Heads");
-            }
-
-            if (coin === 1) {
-                message.channel.send("Tails");
-            }
             
         }
         
