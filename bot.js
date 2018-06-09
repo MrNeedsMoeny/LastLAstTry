@@ -207,6 +207,7 @@ console.log("I am ready!");
                 message.channel.send("Two of Clubs");
             }
 
+           
             if (card === 43) {
                 message.channel.send("Three of Clubs");
             }
@@ -266,6 +267,7 @@ console.log("I am ready!");
      }
 
    }
+ }
          
  });
        
