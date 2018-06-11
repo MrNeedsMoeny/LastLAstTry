@@ -13,7 +13,7 @@ console.log("Playing BlackJack");
           message.channel.send({embed: {
   color: 3447003,
   description: "LordTing: The only Ting we know !"
-          
+          }
           });
             const prefix = ".";
     client.on("message", (message) => {
