@@ -17,14 +17,7 @@ console.log("Playing BlackJack");
           });
              
              
-          const prefix = ".";
-    client.on("message", (message) => {
-        if (message.content.startsWith(prefix + "staff"))
-            message.reply("MrNeedsMoney, M&M, Spear, Tate, LordTing");
-    }
-                
-            });
-         
+        
          
             if (message.content.startsWith(prefix + "card")){
             var card = Math.floor(Math.random() * 52) + 1;
