@@ -18,7 +18,7 @@ console.log("Playing BlackJack");
             const prefix = ".";
     client.on("message", (message) => {
         if (message.content.startsWith(prefix + "staff"))
-            message.channel.send("MrNeedsMoney, M&M, Spear, Tate, LordTing");
+            message.reply"MrNeedsMoney, M&M, Spear, Tate, LordTing");
              
                 
             });
