@@ -14,7 +14,7 @@ console.log("Playing BlackJack");
   color: 3447003,
   description: "LordTing: The only Ting we know !"
           
-          }});
+          });
             const prefix = ".";
     client.on("message", (message) => {
         if (message.content.startsWith(prefix + "staff"))
