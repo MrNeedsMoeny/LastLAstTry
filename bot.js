@@ -15,7 +15,13 @@ console.log("Playing BlackJack");
   description: "LordTing: The only Ting we know !"
           
           }});
-        
+            const prefix = ".";
+    client.on("message", (message) => {
+        if (message.content.startsWith(prefix + "staff"))
+            message.channel.send("MrNeedsMoney, M&M, Spear, Tate, LordTing");
+             
+                
+            });
          
             if (message.content.startsWith(prefix + "card")){
             var card = Math.floor(Math.random() * 52) + 1;
