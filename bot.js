@@ -271,17 +271,27 @@ console.log("Playing BlackJack");
 
     if (ting === 3) {
 
-        message.reply("https://me.me/i/when-you-holla-at-a-peng-ting-and-her-friends-6778355")
+        message.reply("https://me.me/i/when-you-holla-at-a-peng-ting-and-her-friends-6778355");
         }
 
     if (ting === 4) {
 
-        message.reply("https://onsizzle.com/i/priest-do-you-take-my-mandem-as-your-hubby-girl-17503808")
+        message.reply("https://onsizzle.com/i/priest-do-you-take-my-mandem-as-your-hubby-girl-17503808");
 
      }
 
    }
+ if (message.content.startsWith(prefix + "staff")) {
+              var tate = Math.floor(Math.random() * 1) + 1;
 
+    if (tate === 1) {
+
+        
+        message.reply("MrNeedsMoney, M&M, Tate, Spear, LordTing");
+
+    }
+}  
+        
  });
        
    
