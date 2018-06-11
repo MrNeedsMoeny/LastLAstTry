@@ -239,7 +239,7 @@ console.log("Playing BlackJack");
     var card = Math.floor(Math.random() * 2) + 1;
 
     if (card === 1) {
-
+    }
         message.reply("Heads");
 
     }
@@ -281,7 +281,16 @@ console.log("Playing BlackJack");
      }
 
    }
-         
+ if (message.content.startsWith(prefix + "staff")) {
+              var tate = Math.floor(Math.random() * 1) + 1;
+
+    if (tate === 1) {
+
+        
+        message.reply("MrNeedsMoney, M&M, Tate, Spear, LordTing");
+
+    }
+}  
          
  });
        
