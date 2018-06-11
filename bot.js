@@ -287,7 +287,7 @@ console.log("Playing BlackJack");
     if (tate === 1) {
 
         
-        message.reply("MrNeedsMoney, M&M, Tate, Spear, LordTing");
+        message.reply("MrNeedsMoney, M&M, Tate, Spear, LordTing")
 
     }
 }  
