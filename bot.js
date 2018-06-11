@@ -219,7 +219,6 @@ console.log("Playing BlackJack");
             if (card === 49) {
                 message.reply("Nine of Clubs");
             }
-
             if (card === 50) {
                 message.reply("Ten of Clubs");
             }
@@ -236,15 +235,15 @@ console.log("Playing BlackJack");
         
    if (message.content.startsWith(prefix + "flipacoin")) {
 
-    var card = Math.floor(Math.random() * 2) + 1;
+    var coin = Math.floor(Math.random() * 2) + 1;
 
-    if (card === 1) {
-    }
+    if (coin === 1) {
+    
         message.reply("Heads");
 
     }
 
-    if (card === 2) {
+    if (coin === 2) {
 
         message.reply("Tails");
 
@@ -281,6 +280,18 @@ console.log("Playing BlackJack");
      }
 
    }
+              if (message.content.startsWith(prefix + "staff")) {
+
+              var tate = Math.floor(Math.random() * 1) + 1;
+
+
+    if (tate === 1) {
+
+ message.reply("MrNeedsMoney, M&M, Tate, Spear, LordTing");
+
+    }
+
+} 
       
  });
        
