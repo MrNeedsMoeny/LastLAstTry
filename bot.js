@@ -14,14 +14,6 @@ console.log("Playing BlackJack");
   color: 3447003,
   description: "LordTing: The only Ting we know !"
           }
-        }
-        
-       
-         if (message.content.startsWith(prefix + "help"))
-          message.channel.send({embed: {
-          color: 3447003,
-          description: "Here is a list of commands: .card, .flipacoin, .whoisting and .staff"
-          }
           });
              
              
