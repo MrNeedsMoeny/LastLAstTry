@@ -271,8 +271,7 @@ console.log("Playing BlackJack");
 
     if (ting === 3) {
 
-        message.reply("https://images.google.ca/imgres?imgurl=https%3A%2F%2Fpics.me.me%2Fwhen-you-holla-at-a-peng-ting-and-her-friends-10591348.png&imgrefurl=https%3A%2F%2Fme.me%2Fi%2Fwhen-you-holla-at-a-peng-ting-and-her-friends-6778355&docid=StuNJCk7V5e4UM&tbnid=YsJ-_CxjjDm9ZM%3A&vet=1&w=500&h=573&source=sh%2Fx%2Fim")
-        
+        message.reply("https://me.me/i/when-you-holla-at-a-peng-ting-and-her-friends-6778355")
         }
 
     if (ting === 4) {
