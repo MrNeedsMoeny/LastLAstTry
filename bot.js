@@ -276,7 +276,7 @@ console.log("Playing BlackJack");
 
     if (ting === 4) {
 
-        message.reply("https://goo.gl/images/ZrNB66")
+        message.reply("https://onsizzle.com/i/priest-do-you-take-my-mandem-as-your-hubby-girl-17503808")
 
      }
 
