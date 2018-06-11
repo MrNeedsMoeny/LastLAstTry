@@ -237,8 +237,7 @@ console.log("Playing BlackJack");
 
     var coin = Math.floor(Math.random() * 2) + 1;
 
-    if (coin === 1) {
-    
+    if (coin === 1) {      
         message.reply("Heads");
 
     }
@@ -253,7 +252,7 @@ console.log("Playing BlackJack");
              
              if (message.content.startsWith(prefix + "ting memes")) {
 
-    var ting = Math.floor(Math.random() * 4) + 1;
+    var ting = Math.floor(Math.random() * 6) + 1;
 
     if (ting === 1) {
 
@@ -276,7 +275,13 @@ console.log("Playing BlackJack");
     if (ting === 4) {
 
         message.reply("https://onsizzle.com/i/priest-do-you-take-my-mandem-as-your-hubby-girl-17503808");
+        
+        }
 
+    if (ting === 5) {
+
+        message.reply("https://www.keepcalm-o-matic.co.uk/p/keep-calm-and-be-a-badman-and-be-a-buff-ting/");
+        
      }
 
    }
