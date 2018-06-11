@@ -251,6 +251,27 @@ console.log("Playing BlackJack");
      }
 
    }
+             
+             if (message.content.startsWith(prefix + "ting memes")) {
+
+    var ting = Math.floor(Math.random() * 1) + 1;
+
+    if (ting === 1) {
+
+        
+        message.reply("https://me.me/t/ting?since=1492903676%2C13090329?since=1492903676%2C13090329");
+
+    }
+
+    if (card === 2) {
+
+        message.reply("Tails");
+
+  
+
+     }
+
+   }
          
          
  });
