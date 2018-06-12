@@ -13,7 +13,12 @@ console.log("Playing BlackJack");
 
 
      client.on("message", (message) => {
-   
+     if (message.content.startWith(prefix + "whoisting")) 
+         message.channel.send({embed: {
+         color: 3447003,
+         description: "LordTing: The only ting we know!"
+         
+  }});
              
             if (message.content.startsWith(prefix + "card")){
             var card = Math.floor(Math.random() * 52) + 1;
