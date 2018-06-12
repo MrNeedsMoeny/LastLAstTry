@@ -15,7 +15,7 @@ client.on("message", (message) => {
         message.channel.send({embed: {
   color: 3447003,
   description: "LordTIng: The only Ting we know, the only Ting we want to know"
-        }
+        
 }});
          
   
