@@ -16,8 +16,7 @@ console.log("Playing BlackJack");
      if (message.content.startWith(prefix + "whoisting")) {
          message.channel.send({embed: {
          color: 3447003,
-         description: "LordTing: The only ting we know!",
-         description: "PS he made the burrito emoji trend"
+         description: "LordTing: The only ting we know!"
          }
   });
              
@@ -259,7 +258,7 @@ console.log("Playing BlackJack");
 
                  
                  
-                              if (ting === 1) {
+ if (ting === 1) {
 
         
         message.reply("https://me.me/t/ting?since=1492903676%2C13090329?since=1492903676%2C13090329");
