@@ -14,7 +14,30 @@ console.log("Playing BlackJack");
   color: 3447003,
   description: "LordTing: The only Ting we know !"
           }
-          });
+     if(message.channel.startWith(prefix + ""help))                           
+    message.channel.send({embed: {
+    color: 3447003,
+    author: {
+      name: client.user.username,
+      icon_url: client.user.avatarURL
+    },
+    title: "Heres a list of commands:",
+    description: ".card - picks a card out of 52",
+    description: ".flipacoin - does what it says on the tin.",
+    description: ".whoisting - do it to find out",
+    description: ".staff- A list of memebers of staff",        
+    fields: [{
+        name: "Summer of the server:",
+        value: "We are a safe place for you to gamble some of your hard earned swc and meet some amazing people!"
+      }     
+    ],
+    footer: {
+      icon_url: client.user.avatarURL,
+      text: "From, Casio Team"
+    }
+  }
+});
+      
              
              
         
@@ -300,18 +323,7 @@ console.log("Playing BlackJack");
     }
 
 } 
-        if (message.content.startsWith(prefix + "help")) {
-
-              var help = Math.floor(Math.random() * 1) + 1;
-
-
-    if (help === 1) {
-
- message.reply("Here are some commands you can use: .card (picks a card), .flipacoin (does whatt it says on the tin), .staff(A list of staff), .whoisting(you will have to use it to find out)");
-
-    }
-
-} 
+       
              
              
              
