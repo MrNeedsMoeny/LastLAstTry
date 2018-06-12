@@ -15,6 +15,9 @@ console.log("Playing BlackJack");
   description: "LordTing: The only Ting we know !"
           }
                                 }});
+             
+             const prefix = ".";
+         client.on("message", (message) => {
      if(message.channel.startWith(prefix + "help"))                           
     message.channel.send({embed: {
     color: 3447003,
