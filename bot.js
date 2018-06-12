@@ -14,9 +14,9 @@ console.log("Playing BlackJack");
   color: 3447003,
   description: "LordTing: The only Ting we know !"
           }
-     });
+     })
           
-             const prefix = ".";
+             
          client.on("message", (message) => {
      if(message.channel.startWith(prefix + "help"))                           
     message.channel.send({embed: {
@@ -45,6 +45,7 @@ console.log("Playing BlackJack");
         value: "We are a safe place for you to gamble some of your hard earned swc and meet some amazing people"
       }
     ],
+    timestamp: new Date(),
     footer: {
       icon_url: client.user.avatarURL,
       text: "From, Casio Team"
