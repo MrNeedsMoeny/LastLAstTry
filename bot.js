@@ -4,11 +4,13 @@ const client = new Discord.Client();
 client.on("ready", () => { 
 console.log("Playing BlackJack");
     
- 
-        
-    });
-         const prefix = ".";
-      client.on("message", (message) => {
+});
+         
+     const prefix = ".";
+     if(!msg.content.startsWith(prefix)) return;
+
+
+     client.on("message", (message) => {
      if(message.channel.startWith(prefix + "help"))                           
     message.channel.send({embed: {
     color: 3447003,
@@ -16,13 +18,12 @@ console.log("Playing BlackJack");
       name: client.user.username,
       icon_url: client.user.avatarURL
     },
-    title: "Heres a list of commands:",
+    title: "Heres a list of commands:",     
     description: ".card - picks a card out of 52",    
     fields: [{
         name: "staff",
         value: "A list of memebers of staff!"
       }, 
- 
       {
         name: ".whoisting",
         value: "do it to find out"
