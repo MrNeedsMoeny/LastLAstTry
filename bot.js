@@ -8,16 +8,7 @@ console.log("Playing BlackJack");
         
     });
          const prefix = ".";
-         client.on("message", (message) => {
-         if (message.content.startsWith(prefix + "whoisting"))
-          message.channel.send({embed: {
-  color: 3447003,
-  description: "LordTing: The only Ting we know !"
-          }
-     })
-          
-             
-         client.on("message", (message) => {
+      client.on("message", (message) => {
      if(message.channel.startWith(prefix + "help"))                           
     message.channel.send({embed: {
     color: 3447003,
