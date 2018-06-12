@@ -16,7 +16,8 @@ console.log("Playing BlackJack");
      if (message.content.startWith(prefix + "whoisting"))
          message.channel.send({embed: {
          color: 3447003,
-         description: "A very simple Embed!"
+         description: "LordTing: The only ting we know!",
+         description: "PS he made the burrito emoji trend"
          }
   });
              
