@@ -7,11 +7,11 @@ console.log("Playing BlackJack");
 });
          
      const prefix = ".";
-     if(!msg.content.startsWith(prefix)) return;
+    
 
 
      client.on("message", (message) => {
-     if(message.channel.startWith(prefix + "help"))                           
+     if (message.channel.startWith(prefix + "help"))                           
     message.channel.send({embed: {
     color: 3447003,
     author: {
@@ -44,13 +44,7 @@ console.log("Playing BlackJack");
     }
   }
 });
-             
-           
-      
-             
-             
-        
-         
+            
             if (message.content.startsWith(prefix + "card")){
             var card = Math.floor(Math.random() * 52) + 1;
             if (card === 1) {
