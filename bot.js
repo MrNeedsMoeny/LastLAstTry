@@ -8,17 +8,17 @@ console.log("Playing BlackJack");
          
 
 
- const prefix = ".";
+ const prefix = "."; 
+client.on("message", (message) => {
     
-
-
-     client.on("message", (message) => {
      if (message.content.startWith(prefix + "whoisting")) 
-         message.channel.send({embed: {
-         color: 3447003,
-         description: "LordTing: The only ting we know!"
+        message.channel.send({embed: {
+  color: 3447003,
+  description: "LordTIng: The only Ting we know, the only Ting we want to know"
+        }
+}});
          
-  }});
+  
              
             if (message.content.startsWith(prefix + "card")){
             var card = Math.floor(Math.random() * 52) + 1;
