@@ -254,7 +254,10 @@ console.log("Playing BlackJack");
 
     var ting = Math.floor(Math.random() * 6) + 1;
 
-    if (ting === 1) {
+
+                 
+                 
+                 if (ting === 1) {
 
         
         message.reply("https://me.me/t/ting?since=1492903676%2C13090329?since=1492903676%2C13090329");
@@ -297,7 +300,21 @@ console.log("Playing BlackJack");
     }
 
 } 
-      
+        if (message.content.startsWith(prefix + "help")) {
+
+              var help = Math.floor(Math.random() * 1) + 1;
+
+
+    if (help === 1) {
+
+ message.reply("Here are some commands you can use: .card (picks a card), .flipacoin (does whatt it says on the tin), .staff(A list of staff), .whoisting(you will have to use it to find out)");
+
+    }
+
+} 
+             
+             
+             
  });
        
    
