@@ -43,11 +43,11 @@ console.log("Playing BlackJack");
     footer: {
       icon_url: client.user.avatarURL,
       text: "From, Casio Team"
-    }
-  }
-});
-
-         client.on("message", (message) => {
+    
+  
+   
+    }else
+ 
              
             if (message.content.startsWith(prefix + "card")){
             var card = Math.floor(Math.random() * 52) + 1;
