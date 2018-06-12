@@ -14,33 +14,9 @@ console.log("Playing BlackJack");
   color: 3447003,
   description: "LordTing: The only Ting we know !"
           }
-                                }});
+     });
              
-             const prefix = ".";
-         client.on("message", (message) => {
-     if(message.channel.startWith(prefix + "help"))                           
-    message.channel.send({embed: {
-    color: 3447003,
-    author: {
-      name: client.user.username,
-      icon_url: client.user.avatarURL
-    },
-    title: "Heres a list of commands:",
-    description: ".card - picks a card out of 52",
-    description: ".flipacoin - does what it says on the tin.",
-    description: ".whoisting - do it to find out",
-    description: ".staff- A list of memebers of staff",        
-    fields: [{
-        name: "Summer of the server:",
-        value: "We are a safe place for you to gamble some of your hard earned swc and meet some amazing people!"
-      }     
-    ],
-    footer: {
-      icon_url: client.user.avatarURL,
-      text: "From, Casio Team"
-    }
-  }
-});
+           
       
              
              
