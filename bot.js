@@ -6,44 +6,7 @@ console.log("Playing BlackJack");
     
 });
          
-     const prefix = ".";
-    
-
-
-     client.on("message", (message) => {
-     if (message.channel.startWith(prefix + "help"))                           
-    message.channel.send({embed: {
-    color: 3447003,
-    author: {
-      name: client.user.username,
-      icon_url: client.user.avatarURL
-    },
-    title: "Heres a list of commands:",     
-    description: ".card - picks a card out of 52",    
-    fields: [{
-        name: "staff",
-        value: "A list of memebers of staff!"
-      }, 
-      {
-        name: ".whoisting",
-        value: "do it to find out"
-      },
-      {
-        name: ".flipacoin",
-        value: "does what it says on the tin."
-      }, 
-      {
-        name: "Summer of the server:",
-        value: "We are a safe place for you to gamble some of your hard earned swc and meet some amazing people"
-      }
-    ],
-    timestamp: new Date(),
-    footer: {
-      icon_url: client.user.avatarURL,
-      text: "From, Casio Team"
-    }
-  }
-});
+ const prefix = ".";
             
             if (message.content.startsWith(prefix + "card")){
             var card = Math.floor(Math.random() * 52) + 1;
