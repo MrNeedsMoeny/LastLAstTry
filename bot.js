@@ -11,7 +11,7 @@ console.log("Playing BlackJack");
  const prefix = "."; 
 client.on("message", (message) => {
     
-     if (message.content.startWith(prefix + "whoisting")) 
+     if (message.content.startWith(prefix + "whoisting")) {
         message.channel.send({embed: {
   color: 3447003,
   description: "LordTIng: The only Ting we know, the only Ting we want to know"
