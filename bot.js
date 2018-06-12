@@ -287,7 +287,7 @@ console.log("Playing BlackJack");
 
                  
                  
-                 if (ting === 1) {
+                              if (ting === 1) {
 
         
         message.reply("https://me.me/t/ting?since=1492903676%2C13090329?since=1492903676%2C13090329");
@@ -331,7 +331,7 @@ console.log("Playing BlackJack");
 
 } 
        
-             
+}             
              
              
  });
