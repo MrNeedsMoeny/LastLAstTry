@@ -11,7 +11,30 @@ console.log("Playing BlackJack");
  const prefix = "."; 
 client.on("message", (message) => {
     
-         
+         const embed = new Discord.RichEmbed()
+         if (message.content.startWith(prefix + "help"))
+            message.channel.send({embed: {
+  .setTitle(".card")
+  
+  .setColor(0x00AE86)
+  .setDescription("picks a random card out of 52. used for blackjack")
+  .setFooter("From, Dream Team")
+  
+ 
+ 
+  .setTimestamp()
+  .setURL("https://discord.js.org/#/docs/main/indev/class/RichEmbed")
+  .addField(".flipacoin", "does what it says on the tin", true)
+  
+  .addField(".staff", "a list of trusted staff", true)
+  
+   
+  
+  .addBlankField(true)
+  .addField("Inline Field 3", "You can have a maximum of 25 fields.", true);
+
+  message.channel.send({embed});
+    });
   
              
             if (message.content.startsWith(prefix + "card")){
