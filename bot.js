@@ -2,7 +2,7 @@ const Discord = require("discord.js");
 const client = new Discord.Client();
 
 client.on("ready", () => { 
-console.log("Playing BlackJack");
+console.log("ready");
    
 });
          
@@ -14,7 +14,8 @@ client.on("message", (message) => {
     message.channel.send({embed: {
   color: 3447003,
   description: "Here are some commands: .card, .flipacoin, .staff and .ting memes"
-}});
+}
+                         });
         
     
   
