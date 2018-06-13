@@ -10,13 +10,7 @@ console.log("ready");
 
  const prefix = "."; 
 client.on("message", (message) => {
-   if (message.content.startWith(prefix + "help"))
-    message.channel.send({embed: {
-  color: 3447003,
-  description: "Here are some commands: .card, .flipacoin, .staff and .ting memes"
-}
-                         });
-        
+ 
     
   
              
