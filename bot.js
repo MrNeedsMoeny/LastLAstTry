@@ -11,7 +11,8 @@ console.log("ready");
  const prefix = "."; 
 client.on("message", (message) => {
  
-    
+    if (message.content.startWith(prefix + "help"))
+       message.reply("Heres a list of commands: .card, .flipacoin, .staff, .ting memes");
   
              
             if (message.content.startsWith(prefix + "card")){
