@@ -335,7 +335,7 @@ client.on('message', message => {
 
     if (tate === 1) {
 
- message.reply("MrNeedsMoney, M&M, Tate, Spear, LordTing");
+ message.reply("MrNeedsMoney, M&M, Tate, Spear, LordTing and Rw20x");
 
     }
 
