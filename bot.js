@@ -11,42 +11,11 @@ console.log("ready");
  const prefix = "."; 
 
 client.on('message', message => {
-
     if (message.content === prefix +'help') {
-           message.channel.send({embed: {
-    color: 3447003,
-    author: {
-      name: client.user.username,
-      icon_url: client.user.avatarURL
-    },
-    title: "What this bot does",
-    url: "http://google.com",
-    description: "This is a casino based bot however has many commands listed below!",
-    fields: [{
-        name: ".card",
-        value: "picks a random card out of 52"
-      },
-      {
-        name: ".flipacoin",
-        value: "Does what is says on the tin"
-      },
-      {
-        name: ".ting memes",
-        value: "Try it to find out."
-      },
-      {
-        name: ".staff",
-        value: "List of trusted and nice members of staff"
-      }
-    ],
-    timestamp: new Date(),
-    footer: {
-      icon_url: client.user.avatarURL,
-      text: "From, Casino Team"
-    }
-  }
-});
-    
+              message.channel.send({embed: {
+  color: 3447003,
+  description: "Heres a list of commands: .card, .flipacoin, .staff, .ting memes and .whoisting"
+}});
 
 client.on('message', message => {
 
