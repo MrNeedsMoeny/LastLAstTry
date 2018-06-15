@@ -31,6 +31,8 @@ client.on('message', message => {
   	}
 
 });   
+       client.on('message', message => {
+
             if (message.content.startsWith(prefix + "card")){
             var card = Math.floor(Math.random() * 52) + 1;
             if (card === 1) {
