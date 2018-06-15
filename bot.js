@@ -13,20 +13,46 @@ console.log("ready");
 client.on('message', message => {
 
     if (message.content === prefix +'help') {
-
-    	message.reply('Heres a list of commands: .card, .flipacoin, .staff, .ting memes');
-
-  	}
-
+           message.channel.send({embed: {
+    color: 3447003,
+    author: {
+      name: client.user.username,
+      icon_url: client.user.avatarURL
+    },
+    title: "What this bot does",
+   
+    description: "This is a casino based bot however has many commands listed below!",
+    fields: [{
+        name: ".card",
+        value: "picks a random card out of 52"
+      },
+      {
+        name: ".flipacoin",
+        value: "Does what is says on the tin"
+      },
+      {
+        name: ".ting memes",
+        value: "Try it to find out."
+      },
+      {
+        name: ".staff",
+        value: "List of trusted and nice members of staff"
+      }
+    ],
+    timestamp: new Date(),
+    footer: {
+      icon_url: client.user.avatarURL,
+      text: "From, Casino Team"
+    }
+  }
 });
-
-
+    
 
 client.on('message', message => {
 
-    if (message.content === 'please') {
+    if (message.content === prefix +'whoisting') {
 
-    	message.reply('no');
+    	message.reply('LordTing: The only ting we know and want to know');
 
   	}
 
