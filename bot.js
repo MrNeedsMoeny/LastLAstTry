@@ -13,12 +13,11 @@ console.log("ready");
 
    client.on("message", (message) => {
   if (message.content.startsWith(prefix + "help")) {
-    message.channel.send("Heres a list of commands: .card, .flipacoin, .staff, .ting memes and .whoisting");
-  }
-});
-  
-                                  
-
+     message.channel.send({embed: {
+  color: 3447003,
+  description: "Heres a list of commands: .card, .flipacoin, .staff, .ting memes and .whoisting"
+}});
+    
 client.on('message', message => {
 
     if (message.content === prefix +'whoisting') {
