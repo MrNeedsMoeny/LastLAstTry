@@ -12,7 +12,7 @@ console.log("ready");
 
 client.on('message', message => {
 
-    if (message.content === prefix +'help') 
+    if (message.content === prefix +'help') {
            message.channel.send({embed: {
     color: 3447003,
     author: {
@@ -20,7 +20,7 @@ client.on('message', message => {
       icon_url: client.user.avatarURL
     },
     title: "What this bot does",
-   
+    url: "http://google.com",
     description: "This is a casino based bot however has many commands listed below!",
     fields: [{
         name: ".card",
