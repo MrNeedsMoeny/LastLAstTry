@@ -12,8 +12,8 @@ console.log("ready");
 client.on("message", (message) => {
  
     if (message.content.startWith(prefix + "help")){
-       message.reply("Heres a list of commands: .card, .flipacoin, .staff, .ting memes");
-    }
+       message.channel.send("Heres a list of commands: .card, .flipacoin, .staff, .ting memes");
+    });
              
             if (message.content.startsWith(prefix + "card")){
             var card = Math.floor(Math.random() * 52) + 1;
