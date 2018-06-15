@@ -12,7 +12,7 @@ console.log("ready");
 
 client.on('message', message => {
 
-    if (message.content === prefix +'help') {
+    if (message.content === prefix +'help') 
            message.channel.send({embed: {
     color: 3447003,
     author: {
