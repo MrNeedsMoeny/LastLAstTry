@@ -11,7 +11,7 @@ console.log("ready");
  const prefix = "."; 
 
 
-   client.on("message", (message) => {
+   client.on("message", message => {
   if (message.content === prefix + "help")) {
      message.channel.send({embed: {
   color: 3447003,
