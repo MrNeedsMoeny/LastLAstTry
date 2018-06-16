@@ -11,8 +11,8 @@ console.log("ready");
  const prefix = "."; 
 
 
-   client.on("message", message => {
-  if (message.content === prefix + "help")) {
+   client.on("message", (message) => {
+  if (message.content.send prefix + "help")) {
    message.reply("Heres a list of commands: .card, .flipacoin, .staff, .ting memes and .whoisting");
   }
    });
