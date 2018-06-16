@@ -16,6 +16,26 @@ console.log("ready");
 
 
 
+    if (message.content === 'ting') {
+    	message.reply('pong');
+
+    }
+
+}); 
+  client.on('message', message => {
+
+
+
+    if (message.content === 'pong') {
+    	message.reply('ting');
+
+    }
+
+});  
+ client.on('message', message => {
+
+
+
     if (message.content === prefix +'help') {
     	message.reply('Heres a list of commands: .card, .flipacoin, .staff, .ting memes and .whoisting');
 
