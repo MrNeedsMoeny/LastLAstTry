@@ -11,27 +11,7 @@ console.log("ready");
  const prefix = "."; 
 
 
-  
-      client.on('message', message => {
-
-
-
-    if (message.content === 'ting') {
-    	message.reply('pong');
-
-    }
-
-}); 
-  client.on('message', message => {
-
-
-
-    if (message.content === 'pong') {
-    	message.reply('ting');
-
-    }
-
-});  
+ 
  client.on('message', message => {
 
 
