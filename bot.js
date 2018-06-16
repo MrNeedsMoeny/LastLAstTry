@@ -12,10 +12,11 @@ console.log("ready");
 
 
    client.on("message", (message) => {
-  if (message.content.startsWith(prefix + "help")) {
-     message.reply("Heres a list of commands: .card, .flipacoin, .staff, .ting memes and .whoisting");
-     }
-});
+  if (message.content === prefix + "help")) {
+     message.channel.send({embed: {
+  color: 3447003,
+  description: "Heres a list of commands: .card, .flipacoin, .staff, .ting memes and .whoisting"
+}});
     
 client.on('message', message => {
 
