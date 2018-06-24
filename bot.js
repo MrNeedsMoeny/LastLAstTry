@@ -25,7 +25,7 @@ console.log("ready");
   
 client.on('message', message => {
 
-    if (message.content === prefix +'whoisting') {
+    if (message.content === prefix +'') {
     	message.reply('LordTing: The only ting we know and want to know');
     }
 });   
@@ -261,45 +261,7 @@ client.on('message', message => {
      }
 
    }
-             
-             if (message.content.startsWith(prefix + "ting memes")) {
-
-    var ting = Math.floor(Math.random() * 6) + 1;
-
-
-                 
-                 
- if (ting === 1) {
-
         
-        message.reply("https://me.me/t/ting?since=1492903676%2C13090329?since=1492903676%2C13090329");
-
-    }
-
-    if (ting === 2) {
-
-        message.reply("https://www.pinterest.ca/pin/427067977142082269/");
-
-  }
-
-    if (ting === 3) {
-
-        message.reply("https://me.me/i/when-you-holla-at-a-peng-ting-and-her-friends-6778355");
-        }
-
-    if (ting === 4) {
-
-        message.reply("https://onsizzle.com/i/priest-do-you-take-my-mandem-as-your-hubby-girl-17503808");
-        
-        }
-
-    if (ting === 5) {
-
-        message.reply("https://www.keepcalm-o-matic.co.uk/p/keep-calm-and-be-a-badman-and-be-a-buff-ting/");
-        
-     }
-
-   }
               if (message.content.startsWith(prefix + "staff")) {
 
               var tate = Math.floor(Math.random() * 1) + 1;
@@ -307,7 +269,7 @@ client.on('message', message => {
 
     if (tate === 1) {
 
- message.reply("MrNeedsMoney, M&M, Tate, Spear, LordTing and Rw20x");
+ message.reply("MrNeedsMoney, M&M, Rw20x, Swag, JonnyBear");
 
     }
 
